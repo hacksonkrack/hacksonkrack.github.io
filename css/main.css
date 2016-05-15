@@ -20,3 +20,25 @@ nav ul a,nav .brand-logo {
 .imagen{
 	margin-left:40%; 
 }
+@media screen and (max-width: 480px){
+    #negro{
+        margin-top: 50px;
+        color: white;
+    }
+    .imagen{
+        margin-left:20%;
+    }
+
+}
+@media screen and (max-width: 320px){
+    #negro{
+        margin-top: 50px;
+        color: white;
+    }
+    .imagen{
+        margin-left:10%;
+    }
+
+}
+
+
