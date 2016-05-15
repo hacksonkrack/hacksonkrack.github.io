@@ -1,0 +1,22 @@
+nav ul a,nav .brand-logo {
+	color: #444;
+}
+.button-collapse {
+	color: #26a69a;
+}/*
+.parallax-container{
+	height: 30%;
+}*/
+.parallax-container {
+	height: 594px;
+}
+.page-footer{
+	background: #2484E7 !important;
+}
+#negro{
+	margin-top: 140px; 
+	color: white;
+}
+.imagen{
+	margin-left:40%; 
+}
