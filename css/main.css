@@ -24,7 +24,7 @@ nav ul a,nav .brand-logo {
 }
 @media screen and (max-width: 410px){
 	.imagen{
-		margin-left:35%;
+		margin-left:20% !important;
 	}	
 }
 @media screen and (max-width: 500px){
@@ -37,7 +37,7 @@ nav ul a,nav .brand-logo {
 		color: white;
 	}
 	.imagen{
-		margin-left:25% !important;
+		margin-left:23% !important;
 		width: 110px;
 	}
 	img{
@@ -57,7 +57,7 @@ nav ul a,nav .brand-logo {
 		color: white;
 	}
 	.imagen{
-		margin-left:40%;
+		margin-left:40% ;
 		width: 200px;
 	}
 }
