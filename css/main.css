@@ -8,6 +8,7 @@ nav ul a,nav .brand-logo {
 	height: 30%;
 }*/
 .parallax-container {
+	min-height: 380px;
 	height: 594px;
 }
 .page-footer{
@@ -18,27 +19,24 @@ nav ul a,nav .brand-logo {
 	color: white;
 }
 .imagen{
-	margin-left:40%; 
+	margin-left:40%;
 }
 @media screen and (max-width: 480px){
-    #negro{
-        margin-top: 50px;
-        color: white;
-    }
-    .imagen{
-        margin-left:20%;
-    }
-
+	.parallax-container {
+		height: 200px;
+	}
+	#negro{
+		margin-top: 100px;
+		color: white;
+	}
+	.imagen{
+		margin-left:35%;
+		width: 120px;
+	}
+	img{
+		max-width: 100%;
+	}
+	.grande{
+		height: 50px !important;
+	}
 }
-@media screen and (max-width: 320px){
-    #negro{
-        margin-top: 50px;
-        color: white;
-    }
-    .imagen{
-        margin-left:10%;
-    }
-
-}
-
-
