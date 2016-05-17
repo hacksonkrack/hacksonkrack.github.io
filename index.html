@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
 	<title>Aprende con HackSonKrack</title>
-	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/materialize.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/btn.css">
 	<link rel="stylesheet" href="css/icon.css">
-	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="css/Material-Design-Icons.woff">
+	<link rel="stylesheet" href="css/Material-Design-Icons.woff2">
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
 	<nav class="white letra" role="navigation">
 		<div class="nav-wrapper container">
-			<a href="#!" style="font-family: 'Pacifico', sans-serif;" class="brand-logo">HackSonKrack</a>
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<a href="#!" style="font-family: 'Pacifico', sans-serif;" class="brand-logo">HackSonkrack</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse">
+			    <div id="cont" class="baja">
+			    	<button type="button" class="tcon tcon-menu--xcross" aria-label="toggle menu">
+			            <span class="tcon-menu__lines" aria-hidden="true"></span>
+			            <span class="tcon-visuallyhidden">toggle menu</span>
+			        </button>
+			    </div>
+			</a>
 			<ul class="right hide-on-med-and-down">
-				<li><a href="#">Css</a></li>
+				<li><a href="#">css</a></li>
 				<li><a href="#">JavaScript</a></li>
-				<li><a href="#">Html</a></li>
+				<li><a href="#">html</a></li>
 				<li><a href="#">Backend</a></li>
 				<li><a href="#">Frontend</a></li>
 			</ul>
@@ -33,14 +41,31 @@
 			</ul>
 		</div>
 	</nav>
+
 	<div class="parallax-container">
-		<h1 class="header center" id="negro" style="font-family: 'Pacifico', sans-serif;">Hacksonkrack</h1>
 		<img src="img/logo-p.png" class="responsive-img imagen">
+		<div class="parallax">
+			<img src="img/foto.jpeg" class="responsive-img">
+		</div>
+	</div>
+	<div class="parallax-container">
+		<div class="parallax">
+			<img src="img/pexels.jpg" class="responsive-img">
+		</div>
+		<div class="caption left-align white-text">
+			<h3 class="header center" id="negro">Aprende A Diseñar</h3>
+			<h5 class="center">Imagina algo que tengas en mente y llevalo a la realidad.</h5>
+		</div>
+	</div>
+	<div class="parallax-container">
 		<div class="parallax">
 			<img src="img/img-n.jpg" class="responsive-img">
 		</div>
+		<div class="caption center-align white-text">
+			<h3 class="header center" id="negro">Aprende A Programar</h3>
+			<h5 class="center">Programa como un pro con grandes practicas.</h5>
+		</div>
 	</div>
-
 	<footer class="page-footer">
 		<div class="container">
 			<div class="row">
@@ -69,5 +94,6 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/materialize.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/btn.js">transformicons.add('.tcon')</script>
 </body>
 </html>
